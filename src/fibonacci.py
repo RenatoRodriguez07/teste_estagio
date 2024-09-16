@@ -3,7 +3,7 @@ def fibonacci(limit):
   while fib_sequence[-1] < limit:
     fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])
   return fib_sequence
-  
+
 def is_in_fibonacci(num):
   fib_sequence = fibonacci(num)
   if num in fib_sequence:
